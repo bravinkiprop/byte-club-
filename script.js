@@ -14,7 +14,7 @@ if (toggleButton) {
   toggleButton.addEventListener("click", function () {
     if (isOpen) {
       details.hidden = true;
-      toggleButton.textContent = "opening hours ";
+      toggleButton.textContent = "challenges for this week";
       isOpen = false;
     } else {
       details.hidden = false;
